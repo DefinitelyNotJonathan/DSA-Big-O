@@ -71,26 +71,6 @@ function calculateNth(n) {
   }
 }
 
-// function stringSplitter(string, separator, array, currIndex) {
-//  if(!separator){
-//      return string
-//  }
-//  if(string[currIndex] == separator ) {
-//      array.push(string.slice(0, currIndex))
-//      string = string.slice(currIndex + 1)
-//      currIndex = -1
-//  }
-//  if(currIndex == string.length-1) {
-//     array.push(string.slice(0, currIndex+1))
-
-//      return array
-//  }
-//  return stringSplitter(string, separator, array, currIndex+1)
-
-// }
-// console.log(stringSplitter("02/20/2020", "/", [], 0));
-
-
 
 
 
